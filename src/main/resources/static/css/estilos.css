@@ -2,15 +2,10 @@
     position: absolute; 
     top: 0; 
     left: 0;
-    height: 8%;
+    height: 12%;
     width: 100%;
     background: #496D8D;
     color: white;
-}
-
-#encabezado h1{
-    display: inline;
-    
 }
 
 .descripcion{
