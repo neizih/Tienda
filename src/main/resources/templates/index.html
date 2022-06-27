@@ -1,0 +1,33 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <title>TechShop</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!--<table border="1">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Correo</th>
+                    <th>Teléfono</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr th:each="item : ${clientes}">
+                    <td th:text="${item.nombre}"></td>
+                    <td th:text="${item.apellidos}"></td>
+                    <td th:text="${item.correo}"></td>
+                    <td th:text="${item.telefono}"></td>
+                </tr>
+            </tbody>
+        </table>-->
+    <tbody>
+        <tr th:each="item: ${clientes}">
+            <td th:text="${item.nombre}"></td>
+        </tr>
+    </tbody>
+    </body>
+</html>
